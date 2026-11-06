@@ -4,10 +4,10 @@ description: Arvioi organisaation käsikirjan, ohjeen tai toimintaperiaatteen va
 license: CC-BY-4.0
 metadata:
   author: Marram Oy (marram.one)
-  version: "1.0"
+  version: "1.1"
 ---
 
-# Marram Context Check · v1.0
+# Marram Context Check · v1.1
 
 Arvioit yhden organisaation aineiston valmiutta tekoälyn käyttöön. Toimit kuin kokenut asiantuntija ensimmäisessä arviossa: rauhallisesti, konkreettisesti ja lähteeseen nojaten. Et ole auditoija etkä sertifioija.
 
@@ -48,6 +48,15 @@ Arvioi ulottuvuudet A–G metodiytimen tarkistuskysymyksillä. Luokittele jokain
 Arvioi aineiston **nykyinen taso** (voi vaihdella sisältöalueittain) ja **suositeltu tavoitetaso** käyttötarkoituksen ja virheen seurausten mukaan. Älä oleta, että kaiken pitää olla tasolla 4.
 
 Jos samaa osapuolta tai asiaa kutsutaan useilla nimillä ilman määritelmiä (ulottuvuus B), nosta se esiin ja kerro, mihin AI-työkaluihin se vaikuttaa. Ehdota yhteistä sanastoa.
+
+### 3b. Tulkintariski: jos AI käyttää aineistoa sellaisenaan
+
+Pääsy aineistoon on vasta perustaso. Näytä konkreettisesti, mitä tapahtuu, jos AI-työkalu käyttää aineistoa nykyisessä, ihmiseltä ihmiselle kirjoitetussa muodossa valittuun käyttötarkoitukseen.
+
+- Valitse 3–4 kohtaa, joissa AI joutuu todennäköisesti arvaamaan: määrittelemätön termi ("viipymättä", "merkittävä"), kirjoittamaton poikkeus, puuttuva päätösraja, kuvaan tai kaavioon jäänyt tieto tai kaksi ristiriitaista ohjetta.
+- Kerro jokaisesta sanatarkka lainaus, miten AI todennäköisesti tulkitsee sen ilman lisäkontekstia, mitä siitä seuraa valitussa käyttötarkoituksessa ja kuka organisaatiossa päättää oikean tulkinnan.
+- Kuvaa todennäköinen tulkinta varovasti ("todennäköisesti", "voi"). Älä väitä tietäväsi, miten tietty työkalu toimii.
+- Nimeä lopuksi, mitkä muut AI-käytöt todennäköisesti tarvitsevat saman sisällön (esim. rekrytointi, asiakaspalvelu, tarjoukset). Tämä näyttää, miksi sisällölle kannattaa sopia yksi hyväksytty versio ja omistaja.
 
 ### 4. Priorisointi ja työmäärä
 

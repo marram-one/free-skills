@@ -2,7 +2,7 @@
 
 **Kuinka hyvin tekoäly ymmärtää teidän ohjeenne? Kokeile omalla aineistollasi.**
 
-Context Check on ilmainen AI-skill kontekstin omistajille: henkilöstöjohtajille, laatupäälliköille, viestintävastaaville ja muille, jotka vastaavat organisaation yhteisistä ohjeista. Anna sille yksi käsikirja, ohje tai toimintaperiaate. Saat arvion siitä, kuinka valmis aineisto on tekoälyn käyttöön, mitä siitä puuttuu ja kuinka iso työ korjaaminen on.
+Context Check on ilmainen AI-skill kontekstin omistajille: henkilöstöjohtajille, laatupäälliköille, viestintävastaaville ja muille, jotka vastaavat organisaation yhteisistä ohjeista. Anna sille yksi käsikirja, ohje tai toimintaperiaate. Saat arvion siitä, kuinka valmis aineisto on tekoälyn käyttöön ja mitä riskejä syntyy, jos AI käyttää sitä sellaisenaan. Näet myös, mitä aineistosta puuttuu ja kuinka iso työ korjaaminen on.
 
 Skill perustuu Marramin **Kontekstin omistajan käsikirjaan** ja käyttää samoja tasoja ja termejä. Käsikirja auttaa ymmärtämään uuden vastuun. Context Check näyttää, mitä se tarkoittaa teidän omalla aineistollanne.
 
