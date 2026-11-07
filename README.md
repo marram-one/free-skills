@@ -10,6 +10,10 @@ Ilmaisia AI-skillejä organisaatioille, jotka haluavat tekoälyn toimivan omien 
 |---|---|---|
 | [**Marram Context Check**](skills/marram-context-check/) | Arvioi käsikirjan, ohjeen tai toimintaperiaatteen valmiutta tekoälyn käyttöön, näyttää puutteet ja arvioi työmäärän | Kontekstin omistajat: HR, laatu, viestintä, myynti ja muut yhteisten ohjeiden vastuuhenkilöt |
 
+## Kontekstin omistajan käsikirja (Markdown)
+
+[`kasikirja/kontekstin-omistajan-kasikirja.md`](kasikirja/kontekstin-omistajan-kasikirja.md) on Marramin käsikirjan Markdown-versio tekoälyn luettavaksi. Antakaa se omalle AI-avustajallenne lähteeksi, niin voitte kysyä käsikirjasta suoraan. Tiedosto on samalla esimerkki tasolle 3 jalostetusta aineistosta: siinä on metatiedot, tulkinnat, päätössäännöt ja testitapaukset AI-käyttöä varten. Käsikirjan lisenssi on CC BY-ND 4.0, mutta työpohja ja itsearviointi ovat CC BY 4.0.
+
 ## Asennus lyhyesti
 
 Skillit noudattavat avointa Agent Skills -standardia (SKILL.md). Ne toimivat Claudessa, OpenAI Codexissa ja muissa standardia tukevissa työkaluissa.
