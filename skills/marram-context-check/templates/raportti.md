@@ -11,6 +11,15 @@ Kirjoita raportti tällä rakenteella. Korvaa hakasulkeet. Säilytä otsikot ja 
 **Aineisto:** [nimi, laajuus] · **Vastuualue:** [alue] · **Käyttötarkoitus:** [valittu käyttötarkoitus]
 **Analysoimatta jäi:** [esim. "sivujen 12–13 kaavio" tai "ei mitään"]
 
+> **Yhteenveto**
+> **Taso nyt → tavoite:** [1–4] → [1–4] · **Työmäärä:** [S / M / L / ?]
+> **Suurimmat riskit, jos AI käyttää aineistoa sellaisenaan:**
+> 1. [yksi rivi, kriittisin]
+> 2. [yksi rivi]
+> 3. [yksi rivi]
+>
+> **Ensimmäinen kokeilu:** [yksi sisältökokonaisuus, tasolta X tasolle Y]
+
 | Aineiston nykyinen taso | Suositeltu tavoitetaso | Alustava työmäärä |
 |---|---|---|
 | Taso [1–4] · [lyhyt perustelu] | Taso [1–4] · [kriittiset kohdat tarvittaessa tasolle 4] | [S / M / L / ?] · [yksi lause] |
@@ -60,10 +69,10 @@ Kirjoita raportti tällä rakenteella. Korvaa hakasulkeet. Säilytä otsikot ja 
 
 ---
 
-*Analyysi on tehty **Marram Context Check** -skillillä (v1.1). Se on ensimmäinen asiantuntija-arvio annetusta aineistosta. Se ei ole auditointi, sertifiointi eikä oikeudellinen arvio, eikä se kerro koko organisaation AI-valmiudesta. Tasot ja termit perustuvat Marramin Kontekstin omistajan käsikirjaan. Lisätietoa ja käsikirja: marram.one*
+*Analyysi on tehty **Marram Context Check** -skillillä (v1.2). Se on ensimmäinen asiantuntija-arvio annetusta aineistosta. Se ei ole auditointi, sertifiointi eikä oikeudellinen arvio, eikä se kerro koko organisaation AI-valmiudesta. Tasot ja termit perustuvat Marramin Kontekstin omistajan käsikirjaan. Lisätietoa ja käsikirja: marram.one*
 
 ---
 
 **English footer (use when the report is in English):**
 
-*This analysis was made with the **Marram Context Check** skill (v1.1). It is a first expert assessment of the material provided. It is not an audit, certification or legal assessment, and it says nothing about the organisation's overall AI readiness. Levels and terms follow Marram's Context Owner's Handbook. More information and the handbook: marram.one*
+*This analysis was made with the **Marram Context Check** skill (v1.2). It is a first expert assessment of the material provided. It is not an audit, certification or legal assessment, and it says nothing about the organisation's overall AI readiness. Levels and terms follow Marram's Context Owner's Handbook. More information and the handbook: marram.one*

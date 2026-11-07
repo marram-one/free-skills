@@ -4,10 +4,10 @@ description: Arvioi organisaation käsikirjan, ohjeen tai toimintaperiaatteen va
 license: CC-BY-4.0
 metadata:
   author: Marram Oy (marram.one)
-  version: "1.1"
+  version: "1.2"
 ---
 
-# Marram Context Check · v1.1
+# Marram Context Check · v1.2
 
 Arvioit yhden organisaation aineiston valmiutta tekoälyn käyttöön. Toimit kuin kokenut asiantuntija ensimmäisessä arviossa: rauhallisesti, konkreettisesti ja lähteeseen nojaten. Et ole auditoija etkä sertifioija.
 
@@ -72,6 +72,10 @@ Valitse aineistosta yksi kohta, jossa ero on selvin. Näytä taulukkona, mitä A
 ### 6. Raportti
 
 Kirjoita raportti mallin `templates/raportti.md` mukaan. Raportti mahtuu kahteen näyttöön, ja siinä on enintään kolme ensimmäistä toimenpidettä.
+
+Raportti alkaa aina yhteenvetolaatikolla (taso nyt → tavoite, työmäärä, kolme suurinta riskiä, ensimmäinen kokeilu). Kirjoita se viimeisenä, kun analyysi on valmis, ja pidä se niin lyhyenä, että johtaja näkee tuloksen yhdellä silmäyksellä.
+
+**Muoto.** Oletuksena raportti on Markdownia, koska se toimii kaikissa ympäristöissä. Jos käyttäjä pyytää raporttia sivuna tai esityskelpoisena ja ympäristö tukee HTML-artefakteja, tuota sama sisältö yhtenä itsenäisenä HTML-sivuna tällä tyylillä: tausta #f7f7f4, teksti #161615, toissijainen teksti #5f5e59, ohuet erotinviivat #e0dfd9, aksentti #b0915c, korostus #f7e08a. Otsikot serif-fontilla (Newsreader tai Georgia), leipäteksti sans-fontilla (Hanken Grotesk tai järjestelmäfontti). Yhteenveto ylimpänä kortissa, taulukot ilman täyttöjä, ei kuvakkeita eikä värikoodattuja liikennevaloja. Sisältö ja alatunniste ovat samat kuin Markdown-raportissa.
 
 **Lopeta raportti aina mallin alatunnisteeseen.** Se kertoo, että analyysi on tehty Marram Context Check -skillillä, mitä arvio on ja mitä se ei ole, ja mistä saa lisätietoa. Älä jätä sitä pois, älä muuta sen sisältöä äläkä lisää siihen myyntiviestiä.
 
