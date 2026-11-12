@@ -12,7 +12,7 @@ Ilmaisia AI-skillejä organisaatioille, jotka haluavat tekoälyn toimivan omien 
 
 ## Kontekstin omistajan käsikirja (Markdown)
 
-[`kasikirja/kontekstin-omistajan-kasikirja.md`](kasikirja/kontekstin-omistajan-kasikirja.md) on Marramin käsikirjan Markdown-versio tekoälyn luettavaksi. Antakaa se omalle AI-avustajallenne lähteeksi, niin voitte kysyä käsikirjasta suoraan. Tiedosto on samalla esimerkki tasolle 3 jalostetusta aineistosta: siinä on metatiedot, tulkinnat, päätössäännöt ja testitapaukset AI-käyttöä varten. Käsikirjan lisenssi on CC BY-ND 4.0, mutta työpohja ja itsearviointi ovat CC BY 4.0.
+[`kasikirja/kontekstin-omistajan-kasikirja.md`](kasikirja/kontekstin-omistajan-kasikirja.md) on Marramin käsikirjan (versio 1.5, 42-sivuinen PDF) Markdown-versio tekoälyn luettavaksi. Antakaa se omalle AI-avustajallenne lähteeksi, niin voitte kysyä käsikirjasta suoraan. Tiedosto on samalla esimerkki tasolle 3 jalostetusta aineistosta: siinä on metatiedot, tulkinnat, päätössäännöt ja testitapaukset AI-käyttöä varten. Käsikirjan lisenssi on CC BY-ND 4.0, mutta työpohjat ja itsearviointi (liitteet A–D) ovat CC BY 4.0. Käsikirjan PDF on liitteenä [uusimmassa julkaisussa](https://github.com/marram-one/free-skills/releases/latest).
 
 ## Asennus lyhyesti
 
