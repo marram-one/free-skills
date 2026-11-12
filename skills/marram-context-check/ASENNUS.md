@@ -4,7 +4,7 @@ Context Check on yksi kansio: `skills/marram-context-check/`. Siinä on `SKILL.m
 
 ## Claude.ai (selain ja sovellus)
 
-1. Lataa `marram-context-check.zip` tämän repon Releases-osiosta.
+1. Lataa [`marram-context-check.zip`](https://marram.one/downloads/marram-context-check.zip) (myös tämän repon Releases-osiossa).
 2. Avaa Claudessa **Asetukset → Capabilities** ja varmista, että skills on käytössä.
 3. Valitse **Upload skill** ja lataa zip.
 4. Aloita uusi keskustelu, liitä aineisto ja pyydä Context Check.

@@ -12,13 +12,13 @@ Ilmaisia AI-skillejä organisaatioille, jotka haluavat tekoälyn toimivan omien 
 
 ## Kontekstin omistajan käsikirja (Markdown)
 
-[`kasikirja/kontekstin-omistajan-kasikirja.md`](kasikirja/kontekstin-omistajan-kasikirja.md) on Marramin käsikirjan (versio 1.5, 42-sivuinen PDF) Markdown-versio tekoälyn luettavaksi. Antakaa se omalle AI-avustajallenne lähteeksi, niin voitte kysyä käsikirjasta suoraan. Tiedosto on samalla esimerkki tasolle 3 jalostetusta aineistosta: siinä on metatiedot, tulkinnat, päätössäännöt ja testitapaukset AI-käyttöä varten. Käsikirjan lisenssi on CC BY-ND 4.0, mutta työpohjat ja itsearviointi (liitteet A–D) ovat CC BY 4.0. Käsikirjan PDF on liitteenä [uusimmassa julkaisussa](https://github.com/marram-one/free-skills/releases/latest).
+[`kasikirja/kontekstin-omistajan-kasikirja.md`](kasikirja/kontekstin-omistajan-kasikirja.md) on Marramin käsikirjan (versio 1.5, 42-sivuinen PDF) Markdown-versio tekoälyn luettavaksi. Antakaa se omalle AI-avustajallenne lähteeksi, niin voitte kysyä käsikirjasta suoraan. Tiedosto on samalla esimerkki tasolle 3 jalostetusta aineistosta: siinä on metatiedot, tulkinnat, päätössäännöt ja testitapaukset AI-käyttöä varten. Käsikirjan lisenssi on CC BY-ND 4.0, mutta työpohjat ja itsearviointi (liitteet A–D) ovat CC BY 4.0. Käsikirjan PDF: [marram.one/fi/agenttien-perehdytys](https://marram.one/fi/agenttien-perehdytys).
 
 ## Asennus lyhyesti
 
 Skillit noudattavat avointa Agent Skills -standardia (SKILL.md). Ne toimivat Claudessa, OpenAI Codexissa ja muissa standardia tukevissa työkaluissa.
 
-- **Claude.ai:** lataa skillin zip [Releases-osiosta](https://github.com/marram-one/free-skills/releases/latest) ja lataa se Claudessa kohdassa *Asetukset → Capabilities → Skills*.
+- **Claude.ai:** lataa skillin [zip](https://marram.one/downloads/marram-context-check.zip) ja lataa se Claudessa kohdassa *Asetukset → Capabilities → Skills*.
 - **Muut ympäristöt:** katso skillin oma asennusohje (esim. [Context Checkin ASENNUS.md](skills/marram-context-check/ASENNUS.md)).
 
 Skillit ovat pelkkiä ohjetiedostoja. Ne eivät lähetä aineistoasi Marramille eikä muualle.
