@@ -478,6 +478,10 @@ Näistä kysymyksistä voi alkaa käytännöllinen keskustelu. Se voi johtaa ens
 
 **Mallit vaihtuvat. Harkintanne pysyy.**
 
+**Haluatko keskustella oman vastuualueesi kontekstista?**\
+Tommi Järvinen, Marram Oy\
+[tommi@marram.one](mailto:tommi@marram.one) · [www.marram.one](https://www.marram.one)
+
 ---
 
 # Liite A – Oman vastuualueen kontekstikartta
@@ -666,7 +670,7 @@ Yritykset eivät ole tämän käsikirjan perusteella Marramin asiakkaita eivätk
 
 ## Julkaisija
 
-Marram Oy · marram.one
+Marram Oy · [marram.one](https://www.marram.one) · [tommi@marram.one](mailto:tommi@marram.one)
 
 © 2026 Marram Oy
 
