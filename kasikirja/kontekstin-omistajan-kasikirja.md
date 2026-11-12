@@ -5,11 +5,11 @@ tyyppi: asiantuntijaopas
 kieli: fi
 omistaja: Marram Oy, Tommi Järvinen
 hyvaksyja: Tommi Järvinen
-versio: "1.5"
+versio: "1.6"
 voimassa: 2026-11-12
 seuraava_tarkistus: 2027-02-01
 taso: 3  # Soveltamiseen rikastettu konteksti. Tämä tiedosto on itse esimerkki tason 3 aineistosta.
-alkuperainen_aineisto: Kontekstin omistajan käsikirja v1.5 (PDF, 42 sivua), Marram Oy
+alkuperainen_aineisto: Kontekstin omistajan käsikirja v1.6 (PDF, 42 sivua), Marram Oy
 lahteet:
   - "Deloitte (2026). State of AI in the Nordics 2026"
   - "Boston Consulting Group (2026). Do You Own Your Enterprise Cortex?"
@@ -28,7 +28,7 @@ lisenssi: "CC BY-ND 4.0. Työpohjat ja itsearviointi (liitteet A–D): CC BY 4.0
 
 **Miten organisaation osaaminen, päätössäännöt ja vastuut ulotetaan AI:n tekemään työhön?**
 
-*Marram · Versio 1.5 · Marraskuu 2026*
+*Marram · Versio 1.6 · Marraskuu 2026*
 
 ---
 
@@ -36,29 +36,32 @@ lisenssi: "CC BY-ND 4.0. Työpohjat ja itsearviointi (liitteet A–D): CC BY 4.0
 
 ## Vastuualueellasi on uusia työn tekijöitä
 
-Kuvitellaan yritys, jonka laatujohtaja vastaa tuotteiden laatukriteereistä, poikkeamien käsittelystä ja yhteisistä laadunhallinnan toimintatavoista. Yrityksen eri yksiköissä otetaan käyttöön AI-avustajia ja -agentteja. Hankinnassa yksi työkalu auttaa arvioimaan toimittajia. Asiakaspalvelussa toinen valmistelee reklamaatioiden käsittelyä. Projektitoiminnassa kolmas tarkistaa toimitusten laadunhallintaan liittyviä dokumentteja. Laatujohtaja ei välttämättä ole osallistunut yhdenkään työkalun hankintaan tai kehittämiseen. Silti ne käyttävät hänen vastuualueensa sääntöjä ja tuottavat arvioita, joiden perusteella ihmiset tekevät päätöksiä.
+Kuvitellaan laatujohtaja, joka vastaa tuotteiden laatukriteereistä, poikkeamien käsittelystä ja yhteisistä laadunhallinnan toimintatavoista. Yrityksen yksiköt ottavat käyttöön AI-avustajia ja -agentteja. Hankinnassa yksi työkalu arvioi toimittajia, asiakaspalvelussa toinen valmistelee reklamaatioiden käsittelyä ja projekteissa kolmas tarkistaa toimitusten laatudokumentteja. Laatujohtaja ei ole hankkinut niistä yhtäkään. Silti kaikki kolme soveltavat hänen vastuualueensa sääntöjä, ja niiden arvioiden perusteella ihmiset tekevät päätöksiä.
 
-Kuka varmistaa, että nämä työkalut käyttävät oikeita laatukriteerejä? Kuka määrittelee, miten niiden pitää käsitellä poikkeuksia? Entä kuka huomaa, jos kolme eri AI-työkalua alkaa soveltaa samaa periaatetta eri tavoilla? Samat kysymykset koskevat henkilöstöjohtajaa, jonka ohjeita käytetään rekrytoinnissa, perehdytyksessä ja esihenkilöiden neuvonnassa. Ne koskevat viestintäjohtajaa, jonka hyväksymää äänensävyä hyödynnetään myynnissä, markkinoinnissa ja asiakaspalvelussa. Ne koskevat myös turvallisuusjohtajaa, hankintajohtajaa ja monia muita organisaation yhteisistä toimintaperiaatteista vastaavia henkilöitä.
+Laatukäsikirjassa lukee esimerkiksi: *Merkittävistä poikkeamista ilmoitetaan asiakkaalle viipymättä.* Kokenut laatupäällikkö tietää, millainen poikkeama on merkittävä ja milloin asiakkaaseen otetaan yhteyttä jo ennen kuin kaikki tosiasiat on selvitetty. Uudelle työntekijälle tämä kerrotaan perehdytyksessä. AI-työkalu tietää vain sen, mitä sille on kerrottu. Jos kolme työkalua tulkitsee saman lauseen kolmella eri tavalla, kukaan ei välttämättä huomaa sitä ajoissa.
 
-AI:n käyttöönotto ei ole vain sitä, että organisaatio saa uusia ohjelmistoja. Yhä useammassa tehtävässä AI osallistuu työn tekemiseen: etsii tietoa, tulkitsee ohjeita, valmistelee ratkaisuja ja joskus myös toteuttaa niitä. Samalla syntyy uusi johtamiskysymys.
+Sama koskee henkilöstöjohtajaa, jonka ohjeita käytetään rekrytoinnissa ja perehdytyksessä, viestintäjohtajaa, jonka hyväksymää äänensävyä käytetään myynnissä ja asiakaspalvelussa, sekä muita yhteisistä toimintaperiaatteista vastaavia johtajia. AI ei enää vain hae tietoa. Se tulkitsee ohjeita, valmistelee päätöksiä ja joskus myös toteuttaa niitä. Samalla syntyy uusi johtamiskysymys:
 
-**Miten vastuualueen johtaja voi vaikuttaa sellaisen työn laatuun, jota hänen alueellaan tekevät myös AI-työkalut?**
+**Miten vastuualueen johtaja vaikuttaa sellaisen työn laatuun, jota hänen alueellaan tekevät myös AI-työkalut?**
 
-Tämä käsikirja tarkastelee kysymystä erityisesti organisaation oman osaamisen näkökulmasta.
+## Mitä tästä käsikirjasta saat
 
-## Uusi työntekijä on hyödyllinen vertaus
+AI-järjestelmien tekniseen hallintaan on jo hyviä menetelmiä: käyttöoikeuksia, valvontaa, toimintarajoja ja testausta. Ne eivät kuitenkaan yleensä varmista, että AI:n käyttämä henkilöstölinjaus, laatukriteeri tai äänensävyohje tarkoittaa yhä sitä, mitä sen hyväksynyt johtaja tarkoitti.
 
-Uuden työntekijän perehdyttäminen on tuttu tehtävä. Hänelle kerrotaan, mitä työssä tavoitellaan, mitä periaatteita noudatetaan ja mistä löytyvät oikeat ohjeet. Hän oppii, mihin asioihin hänellä on päätösvalta ja milloin pitää kysyä kokeneemmalta kollegalta. AI-työkalu ei ole ihminen. Sillä ei ole työntekijän omaatuntoa, kokemusta eikä henkilökohtaista vastuuta. Sen toiminta perustuu tekniseen järjestelmään, mallin kyvykkyyksiin ja sille annettuihin tietoihin, ohjeisiin ja valtuuksiin.
+Tämä käsikirja käsittelee juuri sitä. Kutsumme yrityksen yhteisiä toimintaperiaatteita ja niiden soveltamiseen tarvittavaa asiantuntemusta *toimintakontekstiksi*. Sen sisällöstä vastaa *kontekstin omistaja*, useimmiten johtaja, joka vastaa periaatteista jo nyt. Uutta nimikettä, yksikköä tai tietojärjestelmää ei tarvita. Vanha vastuu toteutetaan uudella tavalla, koska ohjeen lukijana on nyt myös tekoäly.
 
-Silti uuden työntekijän vertaus auttaa esittämään hyödyllisiä kysymyksiä. Mistä AI oppii organisaation toimintatavat? Mistä se tietää, mitä sanoilla *merkittävä*, *kohtuullinen* tai *asiakaslähtöinen* tarkoitetaan juuri tässä yrityksessä? Miten sen työn laatua arvioidaan? Kuka päättää, millaisissa tilanteissa sen pitää pyytää apua? Jos näihin kysymyksiin ei ole vastauksia, osa AI:n käyttöönoton kannalta tärkeästä työstä voi jäädä teknisen toteutuksen ja liiketoiminnan väliin.
+Käsikirjan ydin on yksi erottelu: **AI-järjestelmän omistaminen ja sen käyttämän liiketoimintaperiaatteen omistaminen eivät ole sama asia.**
 
-## Mitä tämä käsikirja tarjoaa?
+Käsikirjassa on:
 
-AI-järjestelmien tekniseen hallintaan on jo menetelmiä, tuotteita ja standardeja. Organisaatiot voivat hallita käyttöoikeuksia, seurata agentteja, asettaa toimintarajoja ja testata niiden suorituksia. Mutta mitä tapahtuu organisaation omalle asiantuntemukselle? Kuka vastaa siitä, että AI:n käyttämä henkilöstölinjaus tarkoittaa edelleen sitä, mitä henkilöstöjohto on tarkoittanut? Entä että laatukriteeriä sovelletaan oikeaan tilanteeseen tai että viestintäavustaja tunnistaa yrityksen hyväksymät poikkeukset normaaliin äänensävyyn?
+1. neljä edellytystä, joiden varassa AI:n tekemään työhön voi luottaa (luku 2)
+2. neljä tasoa, joilla ohjeet valmistellaan AI:n käyttöön, ja viisi esimerkkiä julkisista yritysdokumenteista: KONE, Ericsson, Bosch, IKEA ja Klarna (luvut 3 ja 6)
+3. ero yhteisen sisällön ja agenttikohtaisen ohjeistuksen välillä (luku 4)
+4. asiantuntijan osaamisen valmistelu vaihe vaiheelta laatupäällikön esimerkillä (luku 5)
+5. kolme vastuuta ja ohjeet ensimmäisen kokeilun rajaamiseen (luku 6)
+6. työpohja, viisi testitilannetta ja itsearviointi (liitteet A–C)
 
-Tähän ei ole yhtä kaikille organisaatioille sopivaa vastausta. Esittelemme tässä käsikirjassa yhden mahdollisen lähestymistavan: **organisaation yhteisten toimintaperiaatteiden ja niiden soveltamiseen tarvittavan asiantuntemuksen tietoisen omistamisen ja valmistelun AI-käyttöön**. Kutsumme tätä kokonaisuutta *toimintakontekstiksi* ja sen sisällöllisestä oikeellisuudesta vastaavaa roolia *kontekstin omistajaksi*. Kysymys ei ole välttämättä uudesta tehtävänimikkeestä, organisaatioyksiköstä tai tietojärjestelmästä. Kyse on siitä, että AI:n tarvitsema yrityskohtainen ymmärrys ei synny eikä pysy ajan tasalla itsestään.
-
-Käsikirjan jälkeen sinun pitäisi pystyä tunnistamaan, mitä tämä voi tarkoittaa omalla vastuualueellasi, millaista yhteistyötä se edellyttää AI-järjestelmien omistajien kanssa ja mistä ensimmäinen kokeilu kannattaisi aloittaa.
+Käsikirjan jälkeen tiedät, mitä tämä tarkoittaa omalla vastuualueellasi, mitä sinun pitää sopia AI-järjestelmien omistajien kanssa ja mistä ensimmäinen kokeilu kannattaa aloittaa.
 
 Käsikirjan mukana saat maksuttoman Marram Context Check -skillin, jolla voit tehdä alustavan arvion oman aineistosi soveltuvuudesta AI-käyttöön (ks. luku 6.6). Käsikirja on saatavilla myös AI:n luettavassa Markdown-muodossa: voit antaa sen omalle AI-avustajallesi ja käyttää sitä oman vastuualueesi tarkastelun tukena.
 
@@ -68,11 +71,11 @@ Käsikirjan mukana saat maksuttoman Marram Context Check -skillin, jolla voit te
 
 ## 1.1 Työn tekeminen muuttuu, vaikka organisaatiokaavio ei muutu
 
-AI:n käyttöönotto alkaa yrityksissä usein yksittäisistä tarpeista. Myyntitiimi haluaa nopeuttaa tarjousten valmistelua. Henkilöstöhallinto haluaa vähentää toistuvia kysymyksiä. Laatutoiminto etsii tapaa valmistella poikkeamaraportteja nopeammin. Viestintätiimi kokeilee AI:ta sisällöntuotannossa. Kukin hanke voi olla omasta näkökulmastaan järkevä. Työkalu valitaan, sille määritellään tehtävä ja sitä kokeillaan valitun käyttäjäryhmän kanssa. Vähitellen organisaatiossa saattaa kuitenkin toimia kymmeniä AI-ratkaisuja, jotka käyttävät samoja yhteisiä ohjeita, käsitteitä ja toimintaperiaatteita.
+AI:n käyttöönotto alkaa yrityksissä usein yksittäisistä tarpeista. Myynti haluaa nopeuttaa tarjousten valmistelua, henkilöstöhallinto vähentää toistuvia kysymyksiä, laatutoiminto valmistella poikkeamaraportteja nopeammin ja viestintä kokeilee AI:ta sisällöntuotannossa. Jokainen hanke on omasta näkökulmastaan järkevä: työkalu valitaan, sille määritellään tehtävä ja sitä kokeillaan pienellä käyttäjäryhmällä. Vähitellen organisaatiossa toimii kymmeniä AI-ratkaisuja, jotka käyttävät samoja yhteisiä ohjeita, käsitteitä ja toimintaperiaatteita.
 
-Tätä muutosta ei välttämättä huomaa organisaatiokaaviosta. Laatujohtaja vastaa edelleen laadusta, henkilöstöjohtaja henkilöstöperiaatteista ja viestintäjohtaja yrityksen viestinnästä. Mutta tapa, jolla näitä periaatteita käytetään työn arjessa, muuttuu. Aiemmin ohjeen lukija oli useimmiten työntekijä, jolla oli työyhteisön kokemusta ja mahdollisuus kysyä kollegalta. Nyt sen lukija voi olla myös AI-järjestelmä, joka yhdistää ohjeen tapaustietoihin ja muodostaa niiden perusteella vastauksen, ehdotuksen tai toimenpiteen.
+Organisaatiokaaviosta tätä muutosta ei näe. Vastuut ovat samat kuin ennen, mutta periaatteiden käyttö arjen työssä muuttuu. Ennen ohjeen lukija oli työntekijä, joka tunsi työyhteisön ja pystyi kysymään kollegalta. Nyt lukija voi olla myös AI-järjestelmä, joka yhdistää ohjeen tapaustietoihin ja muodostaa niistä vastauksen, ehdotuksen tai toimenpiteen.
 
-AI-avustaja voi vastata ihmisen kysymykseen. AI-agentti voi osallistua pidempään työnkulkuun, käyttää työkaluja ja suorittaa sille annettuja toimia. Näiden rajat vaihtelevat järjestelmittäin, mutta johtamisen kannalta olennainen kysymys on sama: millaista työtä järjestelmä tekee ja minkä periaatteiden varassa?
+AI-avustaja vastaa ihmisen kysymykseen. AI-agentti osallistuu pidempään työnkulkuun, käyttää työkaluja ja suorittaa sille annettuja toimia. Rajat vaihtelevat järjestelmittäin, mutta johtamisen kannalta olennaista on sama asia: millaista työtä järjestelmä tekee ja minkä periaatteiden varassa se sitä tekee.
 
 > **TUTKIMUSNOSTO · DELOITTE 2026 — Työkalut leviävät. Työn uudistaminen etenee hitaammin.**
 >
@@ -84,33 +87,31 @@ AI-avustaja voi vastata ihmisen kysymykseen. AI-agentti voi osallistua pidempä�
 
 ## 1.2 Työkalu voi kuulua toiselle yksikölle, mutta sääntö on sinun
 
-Kuvitellaan myyntiorganisaatio, joka ottaa käyttöön tarjousagentin. Se kokoaa asiakastarpeen, tarkistaa toimitusehtoja ja ehdottaa tarjoukseen sopivia lupauksia. Tarjouksen hyväksyminen voi kuulua myyntijohdolle. Mutta agentti tarvitsee myös muita yrityksen yhteisiä periaatteita. Se käyttää viestinnän hyväksymää tapaa kuvata yrityksen palveluita. Se huomioi juridiset reunaehdot ja mahdollisesti laatuorganisaation määrittelemät toimituslupaukset. Jos tarjoukseen liittyy tietoturvaväitteitä, tarvitaan turvallisuudesta vastaavien asiantuntijoiden vahvistamaa sisältöä.
+Kuvitellaan myyntiorganisaatio, joka ottaa käyttöön tarjousagentin. Agentti kokoaa asiakastarpeen, tarkistaa toimitusehdot ja ehdottaa tarjoukseen sopivia lupauksia. Tarjouksen hyväksyminen kuuluu myyntijohdolle, mutta agentti tarvitsee myös muiden vastuualueiden periaatteita. Se kuvaa palveluita viestinnän hyväksymällä tavalla ja huomioi juridiset reunaehdot sekä laadun määrittelemät toimituslupaukset. Jos tarjouksessa on tietoturvaväitteitä, niiden sisällön vahvistavat turvallisuudesta vastaavat asiantuntijat.
 
-Yhden agentin työssä voivat siis kohdata monen vastuualueen säännöt. Kuka päättää, mikä niiden oikea tulkinta on? Agentin rakentaja voi toteuttaa sovitun menettelyn teknisesti, mutta hän ei välttämättä ole oikea henkilö vahvistamaan esimerkiksi henkilöstöpolitiikan poikkeuksia, toimitusten laatukriteerejä tai yrityksen hyväksyttäviä vastuullisuusväitteitä. Tässä kohtaa vastuualueen johtajalle voi syntyä uudenlainen rooli. Hänen ei tarvitse omistaa myynnin tarjousagenttia. Hänen pitää kuitenkin voida vaikuttaa siihen, miten hänen vastuualueensa hyväksyttyjä periaatteita siinä käytetään.
+Yhden agentin työssä kohtaavat siis monen vastuualueen säännöt. Agentin rakentaja osaa toteuttaa sovitun menettelyn teknisesti, mutta useimmiten hän ei ole oikea henkilö päättämään, miten henkilöstöpolitiikan poikkeukset, toimitusten laatukriteerit tai yrityksen vastuullisuusväitteet tulkitaan. Se päätös kuuluu sääntöjen omistajille.
 
-Tätä eroa kannattaa korostaa: **AI-järjestelmän omistaminen ja sen käyttämän liiketoimintaperiaatteen omistaminen eivät ole sama asia.**
+Tästä syntyy vastuualueen johtajalle uusi rooli. Hänen ei tarvitse omistaa myynnin tarjousagenttia, mutta hänen pitää voida vaikuttaa siihen, miten hänen vastuualueensa hyväksyttyjä periaatteita agentissa käytetään. Järjestelmän omistaja vastaa työkalusta. Periaatteen omistaja vastaa siitä, mitä työkalu soveltaa.
 
 ## 1.3 Laatuongelma on edelleen laatuongelma
 
-Jos työntekijä antaa asiakkaalle virheellisen tiedon, organisaatio ei tavallisesti käsittele tapahtumaa pelkkänä viestintäkanavan ongelmana. Selvitetään, mikä tieto oli väärin, miksi sitä käytettiin ja miten vastaavat virheet estetään. Sama periaate on hyödyllinen AI:n tekemää työtä arvioitaessa. Jos AI-avustaja neuvoo työntekijää väärän henkilöstöohjeen perusteella, kysymys koskee sekä järjestelmän toimintaa että henkilöstöohjeen oikeellisuutta ja saatavuutta. Jos AI luokittelee laatupoikkeaman väärin, pitää selvittää, oliko vika sen saamassa tiedossa, päätöskriteerissä, tehtävämäärittelyssä vai itse järjestelmän toiminnassa.
+Kun työntekijä antaa asiakkaalle virheellistä tietoa, organisaatio ei käsittele sitä pelkkänä viestintäkanavan ongelmana. Se selvittää, mikä tieto oli väärin, miksi sitä käytettiin ja miten virhe estetään jatkossa. Samaa periaatetta kannattaa käyttää AI:n tekemään työhön. Jos AI-avustaja neuvoo työntekijää väärän henkilöstöohjeen perusteella, kyse on sekä järjestelmän toiminnasta että ohjeen oikeellisuudesta ja saatavuudesta. Jos AI luokittelee laatupoikkeaman väärin, pitää selvittää, oliko vika sen saamassa tiedossa, päätöskriteerissä, tehtävämäärittelyssä vai järjestelmän toiminnassa.
 
-Jos markkinointiagentti esittää perusteettoman vastuullisuusväitteen, ongelmaa ei voi ratkaista vain vaihtamalla mallia tai kirjoittamalla uutta promptia. On myös tiedettävä, mitä yritys saa väittää ja millaiseen näyttöön väite pitää perustaa. Tekninen vastuu ja liiketoiminnan sisällöllinen vastuu kohtaavat näissä tilanteissa. Se ei tarkoita, että vastuualueen johtajalle pitäisi siirtää kaikki AI-järjestelmän toimintaan liittyvä vastuu. Käyttöoikeudet, turvallisuus, järjestelmän toimintakyky ja tekniset suojaukset ovat edelleen omia vastuualueitaan.
-
-Mutta jos AI:n työn laatukriteerit tulevat liiketoiminnasta, niiden määrittelyyn ja hyväksymiseen tarvitaan myös liiketoiminnan vastuuhenkilöitä.
+Jos markkinointiagentti esittää perusteettoman vastuullisuusväitteen, mallin vaihtaminen tai uusi prompti ei yksin korjaa asiaa. On tiedettävä, mitä yritys saa väittää ja mihin näyttöön väite perustuu. Tekninen ja sisällöllinen vastuu kohtaavat tässä, mutta ne eivät sulaudu yhteen. Käyttöoikeudet, tietoturva, järjestelmän toimintakyky ja tekniset suojaukset kuuluvat edelleen omille vastuutahoilleen. Kun AI:n työn laatukriteerit tulevat liiketoiminnasta, niiden määrittelyyn ja hyväksymiseen tarvitaan liiketoiminnan vastuuhenkilöt.
 
 ## 1.4 Kuka perehdyttää AI:n organisaation toimintatapoihin?
 
-Uusi työntekijä ei tavallisesti saa kaikkia tarvitsemiaan valmiuksia pelkästään lukemalla henkilöstökäsikirjan. Hänelle kerrotaan myös, miten yrityksessä oikeasti toimitaan. Miten asiakaslupauksia tulkitaan? Milloin käytännöstä voidaan poiketa? Miten epäselvä tilanne ratkaistaan? Kenelle asia siirretään, jos oma päätösvalta ei riitä? Monet yrityksen tärkeimmistä käytännöistä ovat osittain dokumentoituja ja osittain kokeneiden työntekijöiden tiedossa. AI:n näkökulmasta tämä synnyttää kaksi erillistä tehtävää.
+Uutta työntekijää ei perehdytetä pelkällä henkilöstökäsikirjalla. Hänelle kerrotaan myös, miten talossa oikeasti toimitaan: miten asiakaslupauksia tulkitaan, milloin käytännöstä voi poiketa ja kenelle asia siirretään, kun oma päätösvalta ei riitä. Moni tärkeä käytäntö on kirjoitettu vain osittain, ja loput tietävät kokeneet työntekijät.
 
-Ensimmäinen on varmistaa, että AI saa käyttöönsä oikeat hyväksytyt ohjeet ja tiedot. Toinen on tunnistaa, mitä muuta niiden soveltamiseen tarvitaan. Ajatellaan esimerkiksi laatukäsikirjan lausetta: *Merkittävistä poikkeamista ilmoitetaan asiakkaalle viipymättä.* Kokenut laatupäällikkö saattaa tietää, millaiset poikkeamat ovat merkittäviä, miten niiden vaikutukset arvioidaan ja milloin asiakasta pitää lähestyä ennen kuin kaikki tosiasiat on selvitetty. Jos näitä perusteita ei ole kirjoitettu ohjeeseen eikä AI:n käytössä ole muuta hyväksyttyä lähdettä, järjestelmä joutuu tulkitsemaan niitä epävarmasta lähtökohdasta.
+AI-työkalu ei ole työntekijä. Sillä ei ole omaatuntoa, kokemusta eikä henkilökohtaista vastuuta, ja sen toiminta perustuu tekniseen järjestelmään sekä sille annettuihin tietoihin, ohjeisiin ja valtuuksiin. Vertaus on silti hyödyllinen, koska se tuo esiin kaksi erillistä tehtävää. Ensimmäinen on varmistaa, että AI saa käyttöönsä oikeat ja hyväksytyt ohjeet. Toinen on tunnistaa, mitä muuta niiden soveltamiseen tarvitaan: mitä sanat *merkittävä*, *kohtuullinen* tai *asiakaslähtöinen* tarkoittavat juuri tässä yrityksessä, miten työn laatua arvioidaan ja milloin AI:n pitää pyytää apua.
 
-Tätä voisi ajatella perehdyttämisen puutteena. Tarkemmin kyse on siitä, että järjestelmällä ei ole kaikkea tehtävän edellyttämää organisaatiokohtaista toimintatietoa.
+Lukijalle-osan poikkeamalause on tästä hyvä esimerkki. Jos merkittävän poikkeaman perusteita ei ole kirjoitettu ohjeeseen eikä AI:lla ole muuta hyväksyttyä lähdettä, järjestelmä joutuu tulkitsemaan niitä epävarmasta lähtökohdasta. Syy ei ole tekoälyn kyvyissä. Järjestelmältä puuttuu tehtävän edellyttämä organisaatiokohtainen toimintatieto.
 
-## 1.5 Uusi vastuu vai uusi tapa toteuttaa vanhaa vastuuta?
+## 1.5 Vanha vastuu, uusi toteutustapa
 
-On mahdollista, että monissa organisaatioissa ei tarvita kokonaan uusia vastuita. Henkilöstöjohtaja vastaa jo henkilöstöpolitiikan sisällöstä. Laatupäällikkö hyväksyy jo laatukriteerejä. Viestintäjohtaja päättää jo yrityksen äänensävystä. AI:n käyttöönotto voi kuitenkin edellyttää, että näitä vastuita toteutetaan uudella tavalla. Aiemmin hyväksytty ohje julkaistiin intranetissä, henkilöstö perehdytettiin ja tarvittaessa tehtiin tarkennuksia. Jos samaa ohjetta käyttää useita AI-avustajia ja -agentteja, pitää ehkä tietää myös, mitkä järjestelmät käyttävät sitä, mitä tulkintoja niille on annettu ja miten ohjeen muutokset saadaan niiden käyttöön.
+Useimmissa organisaatioissa vastuut ovat jo olemassa: periaatteiden omistajat hyväksyvät ne nytkin. Muuttuu toteutustapa. Ennen hyväksytty ohje julkaistiin intranetissä, henkilöstö perehdytettiin ja ohjetta tarkennettiin tarvittaessa. Kun samaa ohjetta käyttää useampi AI-avustaja ja -agentti, ohjeen omistajan pitää tietää myös, mitkä järjestelmät sitä käyttävät, mitä tulkintoja niille on annettu ja miten ohjeen muutokset viedään niiden käyttöön.
 
-Tämä johtaa seuraavaan kysymykseen. Jos AI osallistuu vastuualueen työhön, millä perusteella sen tekemään työhön voidaan luottaa?
+Luku 2 käsittelee sitä, millä perusteella AI:n tekemään työhön voi luottaa.
 
 ---
 
