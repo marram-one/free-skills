@@ -14,6 +14,10 @@ Ilmaisia AI-skillejä organisaatioille, jotka haluavat tekoälyn toimivan omien 
 
 [`kasikirja/kontekstin-omistajan-kasikirja.md`](kasikirja/kontekstin-omistajan-kasikirja.md) on Marramin käsikirjan (versio 1.5, 42-sivuinen PDF) Markdown-versio tekoälyn luettavaksi. Antakaa se omalle AI-avustajallenne lähteeksi, niin voitte kysyä käsikirjasta suoraan. Tiedosto on samalla esimerkki tasolle 3 jalostetusta aineistosta: siinä on metatiedot, tulkinnat, päätössäännöt ja testitapaukset AI-käyttöä varten. Käsikirjan lisenssi on CC BY-ND 4.0, mutta työpohjat ja itsearviointi (liitteet A–D) ovat CC BY 4.0. Käsikirjan PDF: [marram.one/fi/agenttien-perehdytys](https://marram.one/fi/agenttien-perehdytys).
 
+### The Context Owner’s Handbook (English, Markdown)
+
+[`kasikirja/the-context-owners-handbook.md`](kasikirja/the-context-owners-handbook.md) is the English edition of the handbook (version 1.6), in Markdown for AI to read. Give it to your own AI assistant as a source and ask it questions about the handbook. The file is also an example of level 3 material: it includes metadata, interpretations, decision rules and test cases for AI use. The handbook is licensed under CC BY-ND 4.0; the worksheets and self-assessment (Appendices A–D) are CC BY 4.0. PDF: [marram.one/context-owners-handbook](https://marram.one/context-owners-handbook).
+
 ## Asennus lyhyesti
 
 Skillit noudattavat avointa Agent Skills -standardia (SKILL.md). Ne toimivat Claudessa, OpenAI Codexissa ja muissa standardia tukevissa työkaluissa.

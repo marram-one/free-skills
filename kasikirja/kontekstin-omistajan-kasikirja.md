@@ -675,4 +675,4 @@ Marram Oy · [marram.one](https://www.marram.one) · [tommi@marram.one](mailto:t
 
 © 2026 Marram Oy
 
-Versio 1.5 · marraskuu 2026. Käsikirjan lisenssi on CC BY-ND 4.0. Työpohjat ja itsearviointi (liitteet A–D) ovat CC BY 4.0 -lisenssillä, joten niitä saa kopioida ja muokata omaan käyttöön.
+Versio 1.6 · marraskuu 2026. Käsikirjan lisenssi on CC BY-ND 4.0. Työpohjat ja itsearviointi (liitteet A–D) ovat CC BY 4.0 -lisenssillä, joten niitä saa kopioida ja muokata omaan käyttöön.
